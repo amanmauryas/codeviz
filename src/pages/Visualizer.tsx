@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Editor from '@monaco-editor/react';
 import { Play, Pause, SkipForward, SkipBack, RefreshCw, Terminal, Code } from 'lucide-react';
 
+
 // Sample code for initial editor content
 const sampleCode = `// Sample JavaScript code
 function fibonacci(n) {
