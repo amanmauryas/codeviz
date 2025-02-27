@@ -1,14 +1,13 @@
-"use client"; 
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import ReactGA from "react-ga4";
 
-const GA_TRACKING_ID = "G-D4589BDJSD"; // Replace with your Measurement ID
+function App() {
+    useEffect(() => {
+        ReactGA.initialize("G-D4589BDJSD"); // Replace with your Measurement ID
+        ReactGA.send("pageview"); // Send initial pageview
+    }, []);
 
-export default function Analytics() {
-  useEffect(() => {
-    ReactGA.initialize(GA_TRACKING_ID);
-    ReactGA.send("pageview");
-  }, []);
-
-  return null;
+    return <div>My React App with Google Analytics</div>;
 }
+
+export default App;
