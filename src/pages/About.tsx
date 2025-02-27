@@ -37,29 +37,17 @@ const About: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img 
-                  src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" 
+                  src="/Aman.jpeg" 
                   alt="Team member" 
                   className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
                 />
-                <h3 className="text-xl font-semibold text-center">Alex Johnson</h3>
-                <p className="text-gray-600 text-center">Founder & Lead Developer</p>
+                <h3 className="text-xl font-semibold text-center">Aman maurya</h3>
+                <p className="text-gray-600 text-center">Learner</p>
                 <p className="mt-4 text-gray-700">
-                  Alex has over 10 years of experience in software development and computer science education.
+                  I am undergrad at IIT Madras, learning failing and developing daily and I love to do that.
                 </p>
               </div>
               
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <img 
-                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" 
-                  alt="Team member" 
-                  className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
-                />
-                <h3 className="text-xl font-semibold text-center">Sarah Chen</h3>
-                <p className="text-gray-600 text-center">UX Designer & Educator</p>
-                <p className="mt-4 text-gray-700">
-                  Sarah specializes in creating intuitive interfaces for educational technology.
-                </p>
-              </div>
             </div>
           </section>
           
@@ -83,10 +71,10 @@ const About: React.FC = () => {
               you can reach us at:
             </p>
             <p className="mt-4">
-              <strong>Email:</strong> <a href="mailto:contact@codeviz.com" className="text-indigo-600 hover:text-indigo-800">contact@codeviz.com</a>
+              <strong>Email:</strong> <a href="mailto:info.amanmauryas@gmail.com" className="text-indigo-600 hover:text-indigo-800">info.amanmauryas@gmail.com</a>
             </p>
             <p>
-              <strong>Twitter:</strong> <a href="https://twitter.com/codeviz" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:text-indigo-800">@codeviz</a>
+              <strong>Twitter:</strong> <a href="https://twitter.com/amanmauryas" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:text-indigo-800">@amanmauryas</a>
             </p>
             
             <div className="mt-8 p-6 bg-indigo-50 rounded-lg">
