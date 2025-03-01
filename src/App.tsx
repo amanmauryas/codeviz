@@ -32,6 +32,7 @@ function App() {
         <Helmet>
           {/* Default Meta Tags */}
           <title>Online Code Visualizer - Debug & Analyze Code Instantly</title>
+          <meta name="google-adsense-account" content="ca-pub-9496502750898739"></meta>
           <meta name="description" content="Visualize and debug your code execution step-by-step with our interactive online code visualizer." />
           <meta name="keywords" content="code visualizer, online code execution, debug code, programming visualizer, algorithm visualizer, Python, JavaScript, C++, Java" />
           <meta name="author" content="Code Visualizer" />
